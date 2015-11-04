@@ -31,7 +31,7 @@ namespace IntersectionRectanglesGUI
             ObjRectangle rect2 = new ObjRectangle(Convert.ToDouble(rect2x1.Text), Convert.ToDouble(rect2y1.Text),
                                                   Convert.ToDouble(rect2x2.Text), Convert.ToDouble(rect2y2.Text));
             WorkWithRectangles r = new WorkWithRectangles(rect1, rect2);
-            if (r.isIntersection() == true)
+            if (r.isIntersection())
             {
                 MessageBox.Show("Прямоугольники пересекаются.", "Result");
             }
@@ -40,6 +40,23 @@ namespace IntersectionRectanglesGUI
                 MessageBox.Show("Прямоугольники не пересекаются.", "Result");
             }
             
+        }
+
+        private void cleanButton_Click(object sender, EventArgs e)
+        {
+            rect1x1.Text = "";
+            rect1x2.Text = "";
+            rect1y1.Text = "";
+            rect1y2.Text = "";
+            rect2x1.Text = "";
+            rect2x2.Text = "";
+            rect2y1.Text = "";
+            rect2y2.Text = "";
+        }
+
+        private void closeButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

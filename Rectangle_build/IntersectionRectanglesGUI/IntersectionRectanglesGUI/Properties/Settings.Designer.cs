@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Gui_rectangle.Properties
+namespace IntersectionRectanglesGUI.Properties
 {
 
 
