@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntersectionRectanglesGUI", "IntersectionRectanglesGUI\IntersectionRectanglesGUI.csproj", "{A935A11F-E53C-430A-86C0-798C9B3B5CF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntersectionRectangles", "..\IntersectionRectangles\IntersectionRectangles\IntersectionRectangles.csproj", "{784C3314-6F76-405D-8D0E-19A0E5AA6D58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A935A11F-E53C-430A-86C0-798C9B3B5CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A935A11F-E53C-430A-86C0-798C9B3B5CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A935A11F-E53C-430A-86C0-798C9B3B5CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A935A11F-E53C-430A-86C0-798C9B3B5CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{784C3314-6F76-405D-8D0E-19A0E5AA6D58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{784C3314-6F76-405D-8D0E-19A0E5AA6D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{784C3314-6F76-405D-8D0E-19A0E5AA6D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{784C3314-6F76-405D-8D0E-19A0E5AA6D58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
