@@ -61,32 +61,32 @@ namespace IntersectionRectangles
 
     public class ObjRectangle
     {
-        private double x1;
-        private double y1;
-        private double x2;
-        private double y2;
+        private int x1;
+        private int y1;
+        private int x2;
+        private int y2;
 
-        public double X1
+        public int X1
         {
             get { return x1; }
         }
 
-        public double Y1
+        public int Y1
         {
             get { return y1; }
         }
 
-        public double X2
+        public int X2
         {
             get { return x2; }
         }
 
-        public double Y2
+        public int Y2
         {
             get { return y2; }
         }
 
-        public ObjRectangle(double x1, double y1, double x2, double y2)
+        public ObjRectangle(int x1, int y1, int x2, int y2)
         {
             this.x1 = x1;
             this.y1 = y1;
