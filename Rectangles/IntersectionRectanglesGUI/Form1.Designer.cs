@@ -29,8 +29,7 @@
             this.closeButton = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.randomButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -48,9 +47,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(16, 42);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(110, 13);
+            this.label2.Size = new System.Drawing.Size(113, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = " Левый нижний угол";
+            this.label2.Text = " Левый верхний угол";
             // 
             // label3
             // 
@@ -89,9 +88,9 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(16, 101);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(119, 13);
+            this.label5.Size = new System.Drawing.Size(113, 13);
             this.label5.TabIndex = 6;
-            this.label5.Text = "Правый верхний  угол";
+            this.label5.Text = "Правый нижний угол";
             // 
             // label6
             // 
@@ -202,7 +201,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.button1.Location = new System.Drawing.Point(19, 161);
+            this.button1.Location = new System.Drawing.Point(35, 161);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 23;
@@ -224,7 +223,7 @@
             // closeButton
             // 
             this.closeButton.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.closeButton.Location = new System.Drawing.Point(290, 161);
+            this.closeButton.Location = new System.Drawing.Point(278, 161);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(75, 23);
             this.closeButton.TabIndex = 25;
@@ -237,34 +236,37 @@
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(230, 42);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(110, 13);
+            this.label13.Size = new System.Drawing.Size(113, 13);
             this.label13.TabIndex = 26;
-            this.label13.Text = " Левый нижний угол";
+            this.label13.Text = " Левый верхний угол";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(233, 101);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(119, 13);
+            this.label10.Size = new System.Drawing.Size(113, 13);
             this.label10.TabIndex = 27;
-            this.label10.Text = "Правый верхний  угол";
+            this.label10.Text = "Правый нижний угол";
             // 
-            // pictureBox1
+            // randomButton
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(410, 18);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(130, 166);
-            this.pictureBox1.TabIndex = 28;
-            this.pictureBox1.TabStop = false;
+            this.randomButton.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.randomButton.Location = new System.Drawing.Point(197, 161);
+            this.randomButton.Name = "randomButton";
+            this.randomButton.Size = new System.Drawing.Size(75, 23);
+            this.randomButton.TabIndex = 28;
+            this.randomButton.Text = "Рандом";
+            this.randomButton.UseVisualStyleBackColor = false;
+            this.randomButton.Click += new System.EventHandler(this.randomButton_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
-            this.ClientSize = new System.Drawing.Size(567, 211);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(387, 211);
+            this.Controls.Add(this.randomButton);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.closeButton);
@@ -293,7 +295,6 @@
             this.Name = "Form1";
             this.Text = "Intersection of rectangles";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -325,8 +326,7 @@
         private System.Windows.Forms.ColorDialog colorDialog1;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.PictureBox pictureBox1;
-
+        private System.Windows.Forms.Button randomButton;
     }
 }
 
