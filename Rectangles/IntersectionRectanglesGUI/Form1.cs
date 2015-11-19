@@ -83,8 +83,8 @@ namespace IntersectionRectanglesGUI
             }
             else
             {
-                var rect1 = new Rectangle(R1X1, R1Y2, R1X2 - R1X1, R1Y1 - R1Y2);
-                var rect2 = new Rectangle(R2X1, R2Y2, R2X2 - R2X1, R2Y1 - R2Y2);
+                var rect1 = new Rectangle(R1X1, this.Height - R1Y1, R1X2 - R1X1, R1Y1 - R1Y2);
+                var rect2 = new Rectangle(R2X1, this.Height - R2Y1, R2X2 - R2X1, R2Y1 - R2Y2);
 
                 Picture picture = new Picture(rect1, rect2);
                 picture.Show();
@@ -99,6 +99,26 @@ namespace IntersectionRectanglesGUI
                     MessageBox.Show("Прямоугольники не пересекаются.", "Result");
                 }
             }
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -47,9 +47,10 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(16, 42);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(113, 13);
+            this.label2.Size = new System.Drawing.Size(110, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = " Левый верхний угол";
+            this.label2.Text = "Левый верхний угол";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -91,6 +92,7 @@
             this.label5.Size = new System.Drawing.Size(113, 13);
             this.label5.TabIndex = 6;
             this.label5.Text = "Правый нижний угол";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -236,9 +238,10 @@
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(230, 42);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(113, 13);
+            this.label13.Size = new System.Drawing.Size(110, 13);
             this.label13.TabIndex = 26;
-            this.label13.Text = " Левый верхний угол";
+            this.label13.Text = "Левый верхний угол";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // label10
             // 
@@ -248,6 +251,7 @@
             this.label10.Size = new System.Drawing.Size(113, 13);
             this.label10.TabIndex = 27;
             this.label10.Text = "Правый нижний угол";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // randomButton
             // 
