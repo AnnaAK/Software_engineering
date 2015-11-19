@@ -323,6 +323,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button cleanButton;
         private System.Windows.Forms.Button closeButton;
+        private System.Windows.Forms.ColorDialog colorDialog1;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button randomButton;
